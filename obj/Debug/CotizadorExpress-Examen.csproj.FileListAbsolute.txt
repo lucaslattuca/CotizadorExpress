@@ -1,0 +1,10 @@
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\bin\Debug\CotizadorExpress-Examen.exe.config
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\bin\Debug\CotizadorExpress-Examen.exe
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\bin\Debug\CotizadorExpress-Examen.pdb
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress-Examen.csprojAssemblyReference.cache
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress_Examen.Cotizador.resources
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress_Examen.FormTienda.resources
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress_Examen.Properties.Resources.resources
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress-Examen.csproj.GenerateResource.cache
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress-Examen.exe
+D:\Lucas\Documents\Projects\CotizadorExpress-Examen\obj\Debug\CotizadorExpress-Examen.pdb
