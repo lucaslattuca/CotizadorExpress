@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CotizadorExpress_Examen.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,7 @@ namespace CotizadorExpress_Examen.Services
                         return true;
                     }
                     catch (Exception) { return false; }
-                case "float":
+                case "double":
                     try
                     {
                         Convert.ToDouble(dato);
@@ -41,5 +42,30 @@ namespace CotizadorExpress_Examen.Services
                     return false;
             }
         }
+
+        public static int ValidarStock(string tipo, bool especial)
+        {
+            switch (tipo)
+            {
+                case "Manga Larga":
+                    if (especial)
+                        return 150;
+                    else
+                        return 350;
+                case "Manga Corta":
+                    if (especial)
+                        return 200;
+                    else
+                        return 300;
+                case "Pantalon":
+                    if (especial)
+                        return 1500;
+                    else
+                        return 500;
+                default:
+                    return 0;
+            }
+        }
+
     }
 }
