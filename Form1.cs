@@ -17,7 +17,7 @@ namespace CotizadorExpress_Examen
     {
         Tienda tienda = new Tienda();
         List<Cotizacion> cotizaciones = new List<Cotizacion>();
-        int nroCotizacion = 0;
+        int nroCotizacion = 1;
         public Cotizador()
         {
             InitializeComponent();
@@ -46,6 +46,10 @@ namespace CotizadorExpress_Examen
             if (!validarPrecio || !validarCantidad)
             {
                 MessageBox.Show("Los datos ingresados no son válidos");
+            }
+            else if (!radioCamisa.Checked && !radioPantalon.Checked)
+            {
+                MessageBox.Show("Seleccione algun tipo de prenda");
             }
             else
             {
@@ -113,7 +117,6 @@ namespace CotizadorExpress_Examen
             {
                 lblListCotizaciones.Text = $"{lblListCotizaciones.Text} \n Fecha: {c.Fecha}";
                 lblListCotizaciones.Text = $"{lblListCotizaciones.Text} \n Nro de Cotizacion: {c.Numero}";
-                lblListCotizaciones.Text = $"{lblListCotizaciones.Text} \n Prenda: {c.Prenda}";
                 lblListCotizaciones.Text = $"{lblListCotizaciones.Text} \n Monto: ${c.Resultado}";
                 lblListCotizaciones.Text = $"{lblListCotizaciones.Text} \n Código Vendedor: {c.CodigoVendedor}";
                 lblListCotizaciones.Text = $"{lblListCotizaciones.Text} \n -------------------------------------";

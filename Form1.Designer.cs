@@ -300,8 +300,9 @@
             // lblListCotizaciones
             // 
             this.lblListCotizaciones.AutoSize = true;
-            this.lblListCotizaciones.Location = new System.Drawing.Point(684, 207);
+            this.lblListCotizaciones.Location = new System.Drawing.Point(684, 156);
             this.lblListCotizaciones.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblListCotizaciones.MaximumSize = new System.Drawing.Size(0, 600);
             this.lblListCotizaciones.Name = "lblListCotizaciones";
             this.lblListCotizaciones.Size = new System.Drawing.Size(0, 17);
             this.lblListCotizaciones.TabIndex = 10;
